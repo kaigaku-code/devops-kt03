@@ -13,9 +13,9 @@ module.exports = [
       }
     },
     rules: {
-      "no-unused-vars": "warn",
-      "no-undef": "error",
-      "no-unreachable": "error"
-    }
+      'no-undef': 'error',
+      'no-unused-vars': 'error',
+      'no-unreachable': 'error',
+    },
   }
 ];

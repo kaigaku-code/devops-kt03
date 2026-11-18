@@ -1,8 +1,8 @@
-const createApp = require("./app");
+const { createApp } = require('./app');
 
-const PORT = process.env.PORT || 3000;
 const app = createApp();
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-  console.log(`KT3 App is listening on port ${PORT}`);
+  console.log(`Server is running on port ${PORT}`);
 });
